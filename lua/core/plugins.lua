@@ -36,6 +36,11 @@ require("lazy").setup({
         "rcarriga/nvim-dap-ui",
         dependencies = { "mfussenegger/nvim-dap" }
     },
+    {
+        'mrcjkb/rustaceanvim',
+        version = '^4', -- Recommended
+        ft = { 'rust' },
+    },
     "mfussenegger/nvim-lint",
     "mhartington/formatter.nvim",
     {
