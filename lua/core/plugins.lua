@@ -68,4 +68,6 @@ require("lazy").setup({
         dependencies = { "nvim-lua/plenary.nvim" },
         opts = {}
     },
+    {'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons'},
+    { 'echasnovski/mini.bufremove', version = '*' },
 })
