@@ -69,3 +69,6 @@ map("n", "<leader>td", "<cmd>lua require('neotest').run.run({strategy = 'dap'})<
 -- todo comments
 map("n", "]t", "<cmd>lua require('todo-comments').jump_next()<CR>", { desc = "Next todo comment" })
 map("n", "[t", "<cmd>lua require('todo-comments').jump_prev()<CR>", { desc = "Previous todo comment" })
+
+-- crates
+map("n", "<leader>rcu", "<cmd>lua require('crates').upgrade_all_crates()<CR>", { desc = "Upgrade All Crates" })

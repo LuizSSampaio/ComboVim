@@ -47,6 +47,11 @@ require("lazy").setup({
         version = '^4', -- Recommended
         ft = { 'rust' },
     },
+    {
+        "saecki/crates.nvim",
+        dependencies = { "hrsh7th/nvim-cmp" },
+        ft = { "rust", "toml" },
+    },
     -- "mfussenegger/nvim-lint",
     -- "mhartington/formatter.nvim",
     {
