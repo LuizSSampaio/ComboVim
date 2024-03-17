@@ -86,4 +86,12 @@ require("lazy").setup({
         event = 'VimEnter',
         dependencies = 'nvim-tree/nvim-web-devicons',
     },
+    {
+        "folke/which-key.nvim",
+        event = "VeryLazy",
+        init = function()
+            vim.o.timeout = true
+            vim.o.timeoutlen = 300
+        end,
+    },
 })
