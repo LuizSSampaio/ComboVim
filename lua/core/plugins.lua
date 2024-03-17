@@ -4,7 +4,7 @@ require("lazy").setup({
     "nvim-tree/nvim-web-devicons",
     "nvim-lualine/lualine.nvim",
     "nvim-treesitter/nvim-treesitter",
-    { 
+    {
         "nvim-neotest/neotest",
         dependencies = {
             "nvim-lua/plenary.nvim",
@@ -31,6 +31,13 @@ require("lazy").setup({
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
+    "mfussenegger/nvim-dap",
+    {
+        "rcarriga/nvim-dap-ui",
+        dependencies = { "mfussenegger/nvim-dap" }
+    },
+    "mfussenegger/nvim-lint",
+    "mhartington/formatter.nvim",
     {
         "nvim-telescope/telescope.nvim",
         dependencies = { "nvim-treesitter/nvim-treesitter" }
