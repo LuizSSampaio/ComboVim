@@ -49,3 +49,8 @@ map(
   "<cmd>Telescope find_files follow=true no_ignore=true hidden=true<CR>",
   { desc = "Telescope Find all files" }
 )
+
+-- dap
+map("n", "<Leader>dt", ':DapToggleBreakpoint<CR>', { desc = "Dap Toggle Breakpoint" })
+map("n", "<Leader>dx", ':DapTerminate<CR>', { desc = "Dap Terminate" })
+map("n", "<Leader>do", ':DapStepOver<CR>', { desc = "Dap Step Over" })
