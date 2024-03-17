@@ -51,6 +51,17 @@ map(
 )
 
 -- dap
-map("n", "<Leader>dt", ':DapToggleBreakpoint<CR>', { desc = "Dap Toggle Breakpoint" })
-map("n", "<Leader>dx", ':DapTerminate<CR>', { desc = "Dap Terminate" })
-map("n", "<Leader>do", ':DapStepOver<CR>', { desc = "Dap Step Over" })
+map("n", "<leader>dt", ':DapToggleBreakpoint<CR>', { desc = "Dap Toggle Breakpoint" })
+map("n", "<leader>dx", ':DapTerminate<CR>', { desc = "Dap Terminate" })
+map("n", "<leader>do", ':DapStepOver<CR>', { desc = "Dap Step Over" })
+
+-- neotest
+map("n", "<leader>tt", "<cmd>lua require('neotest').run.run(vim.fn.expand('%'))<CR>", { desc = "Run File" })
+map("n", "<leader>tT", "<cmd>lua require('neotest').run.run(vim.loop.cwd())<CR>", { desc = "Run All Test Files" })
+map("n", "<leader>tr", "<cmd>lua require('neotest').run.run()<CR>", { desc = "Run Nearest" })
+map("n", "<leader>tl", "<cmd>lua require('neotest').run.run_last()<CR>", { desc = "Run Last" })
+map("n", "<leader>ts", "<cmd>lua require('neotest').summary.toggle()<CR>", { desc = "Toggle Summary" })
+map("n", "<leader>to", "<cmd>lua require('neotest').output.open({ enter = true, auto_close = true })<CR>", { desc = "Show Output" })
+map("n", "<leader>tO", "<cmd>lua require('neotest').output_panel.toggle()<CR>", { desc = "Toggle Output Panel" })
+map("n", "<leader>tS", "<cmd>lua require('neotest').run.stop()<CR>", { desc = "Stop" })
+map("n", "<leader>td", "<cmd>lua require('neotest').run.run({strategy = 'dap'})<CR>", { desc = "Debug Nearest" })

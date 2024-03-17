@@ -12,6 +12,7 @@ require("lazy").setup({
             "nvim-treesitter/nvim-treesitter"
         }
     },
+    "folke/neodev.nvim",
     "lewis6991/gitsigns.nvim",
     {
         "hrsh7th/nvim-cmp",
