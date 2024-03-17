@@ -94,4 +94,5 @@ require("lazy").setup({
             vim.o.timeoutlen = 300
         end,
     },
+    { "RaafatTurki/hex.nvim" },
 })
