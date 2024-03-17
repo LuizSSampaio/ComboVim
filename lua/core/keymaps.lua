@@ -84,3 +84,5 @@ map("n", "<S-l>", "<cmd>BufferLineCycleNext<cr>", { desc = "Next buffer" })
 map("n", "[b", "<cmd>BufferLineCyclePrev<cr>", { desc = "Prev buffer" })
 map("n", "]b", "<cmd>BufferLineCycleNext<cr>", { desc = "Next buffer" })
 
+-- neogit
+map("n", "<leader>g", ":Neogit<CR>", { desc = "Open the NeoGit buffer in a new tab" })

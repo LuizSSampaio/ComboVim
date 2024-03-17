@@ -70,4 +70,13 @@ require("lazy").setup({
     },
     {'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons'},
     { 'echasnovski/mini.bufremove', version = '*' },
+    {
+        "NeogitOrg/neogit",
+        dependencies = {
+            "nvim-lua/plenary.nvim",
+            "sindrets/diffview.nvim",
+            "nvim-telescope/telescope.nvim"
+        },
+        config = true,
+    }
 })
