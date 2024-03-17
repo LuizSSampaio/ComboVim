@@ -5,6 +5,10 @@ require("lazy").setup({
     "nvim-lualine/lualine.nvim",
     "nvim-treesitter/nvim-treesitter",
     {
+        "numToStr/Comment.nvim",
+        lazy = false,
+    },
+    {
         "nvim-neotest/neotest",
         dependencies = {
             "nvim-lua/plenary.nvim",
