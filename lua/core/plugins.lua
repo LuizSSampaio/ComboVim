@@ -78,5 +78,6 @@ require("lazy").setup({
             "nvim-telescope/telescope.nvim"
         },
         config = true,
-    }
+    },
+    { "kosayoda/nvim-lightbulb" },
 })
