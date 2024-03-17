@@ -4,6 +4,7 @@ require("lazy").setup({
     "nvim-tree/nvim-web-devicons",
     "nvim-lualine/lualine.nvim",
     "nvim-treesitter/nvim-treesitter",
+    { "lukas-reineke/indent-blankline.nvim", main = "ibl"},
     {
         "numToStr/Comment.nvim",
         lazy = false,
