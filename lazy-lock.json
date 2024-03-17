@@ -29,5 +29,6 @@
   "rustaceanvim": { "branch": "master", "commit": "6c9b8a9051d28db984eb028132e7031597424d6e" },
   "telescope-fzf-native.nvim": { "branch": "main", "commit": "9ef21b2e6bb6ebeaf349a0781745549bbb870d27" },
   "telescope.nvim": { "branch": "master", "commit": "e9e01d699843af530ef4ad2c8679a7e273bb3dd1" },
+  "todo-comments.nvim": { "branch": "main", "commit": "833d8dd8b07eeda37a09e99460f72a02616935cb" },
   "vim-illuminate": { "branch": "master", "commit": "305bf07b919ac526deb5193280379e2f8b599926" }
 }

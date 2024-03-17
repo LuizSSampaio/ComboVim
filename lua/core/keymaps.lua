@@ -65,3 +65,7 @@ map("n", "<leader>to", "<cmd>lua require('neotest').output.open({ enter = true, 
 map("n", "<leader>tO", "<cmd>lua require('neotest').output_panel.toggle()<CR>", { desc = "Toggle Output Panel" })
 map("n", "<leader>tS", "<cmd>lua require('neotest').run.stop()<CR>", { desc = "Stop" })
 map("n", "<leader>td", "<cmd>lua require('neotest').run.run({strategy = 'dap'})<CR>", { desc = "Debug Nearest" })
+
+-- todo comments
+map("n", "]t", "<cmd>lua require('todo-comments').jump_next()<CR>", { desc = "Next todo comment" })
+map("n", "[t", "<cmd>lua require('todo-comments').jump_prev()<CR>", { desc = "Previous todo comment" })
