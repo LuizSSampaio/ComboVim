@@ -80,4 +80,5 @@ require("lazy").setup({
         config = true,
     },
     { "kosayoda/nvim-lightbulb" },
+    { "rcarriga/nvim-notify" },
 })
