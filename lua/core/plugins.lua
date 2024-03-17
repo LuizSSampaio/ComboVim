@@ -47,8 +47,8 @@ require("lazy").setup({
         version = '^4', -- Recommended
         ft = { 'rust' },
     },
-    "mfussenegger/nvim-lint",
-    "mhartington/formatter.nvim",
+    -- "mfussenegger/nvim-lint",
+    -- "mhartington/formatter.nvim",
     {
         "nvim-telescope/telescope.nvim",
         dependencies = { "nvim-treesitter/nvim-treesitter" }
