@@ -2,7 +2,8 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
--- Make relative line numbers
+-- Make hybrid line numbers
+vim.opt.number = true
 vim.opt.relativenumber = true
 
 -- Enable mouse mode
